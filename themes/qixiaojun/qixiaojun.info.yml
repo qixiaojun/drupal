@@ -1,0 +1,114 @@
+name: qixiaojun
+description: 齐小君的专属主题
+package: 'Bootstrap'
+version: '8.x.x'
+core: '8.x'
+type: theme
+base theme: false
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+# 库
+libraries:
+  - qixiaojun/global_styling
+  - qixiaojun/fontawesome
+# 库扩展
+libraries-extend:
+  # core/drupal.ajax:
+  #   - bootstrap/drupal.ajax
+# 库重写
+libraries-override:
+  core/backbone: false
+
+  core/classList: false
+  core/ckeditor: false
+  core/domready: false
+  core/drupal: false
+  core/drupalSettings: false
+  core/drupal.active-link: false
+  core/drupal.ajax: false
+  core/drupal.announce: false
+  core/drupal.autocomplete: false
+  core/drupal.batch: false
+  core/drupal.collapse: false
+  core/drupal.date: false
+  core/drupal.debounce: false
+  core/drupal.dialog: false
+  core/drupal.dialog.ajax: false
+  core/drupal.displace: false
+  core/drupal.dropbutton: false
+  core/drupal.form: false
+  core/drupal.machine-name: false
+  core/drupal.progress: false
+  core/drupal.states: false
+  core/drupal.tabbingmanager: false
+  core/drupal.tabledrag: false
+  core/drupal.tableheader: false
+  core/drupal.tableresponsive: false
+  core/drupal.tableselect: false
+  core/drupal.timezone: false
+  core/drupal.vertical-tabs: false
+
+  core/html5shiv: false
+  core/jquery: false
+  core/jquery.cookie: false
+  core/jquery.farbtastic: false
+  core/jquery.form: false
+  core/jquery.joyride: false
+  core/jquery.once: false
+
+  core/jquery.ui: false
+  core/jquery.ui.accordion: false
+  core/jquery.ui.autocomplete: false
+  core/jquery.ui.button: false
+  core/jquery.ui.datepicker: false
+  core/jquery.ui.dialog: false
+  core/jquery.ui.draggable: false
+  core/jquery.ui.droppable: false
+  core/jquery.ui.effects.core: false
+  core/jquery.ui.effects.blind: false
+  core/jquery.ui.effects.bounce: false
+  core/jquery.ui.effects.clip: false
+  core/jquery.ui.effects.drop: false
+  core/jquery.ui.effects.explode: false
+  core/jquery.ui.effects.fade: false
+  core/jquery.ui.effects.fold: false
+  core/jquery.ui.effects.highlight: false
+  core/jquery.ui.effects.puff: false
+  core/jquery.ui.effects.pulsate: false
+  core/jquery.ui.effects.scale: false
+  core/jquery.ui.effects.shake: false
+  core/jquery.ui.effects.size: false
+  core/jquery.ui.effects.slide: false
+  core/jquery.ui.effects.transfer: false
+  core/jquery.ui.menu: false
+  core/jquery.ui.mouse: false
+  core/jquery.ui.position: false
+  core/jquery.ui.progressbar: false
+  core/jquery.ui.resizable: false
+  core/jquery.ui.selectable: false
+  core/jquery.ui.selectmenu: false
+  core/jquery.ui.slider: false
+  core/jquery.ui.sortable: false
+  core/jquery.ui.spinner: false
+  core/jquery.ui.tabs: false
+  core/jquery.ui.tooltip: false
+  core/jquery.ui.touch-punch: false
+  core/jquery.ui.widget: false
+
+  core/matchmedia: false
+  core/matchmedia.addListener: false
+  core/modernizr: false
+  core/normalize: false
+  core/picturefill: false
+  core/underscore: false

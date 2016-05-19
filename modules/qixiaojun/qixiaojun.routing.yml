@@ -1,0 +1,7 @@
+qixiaojun.custom_pate:
+  path: /qixiaojun
+  defaults:
+    _controller :'\Drupal\qixiaojun\Controller\QixiaojunController::index'
+    _title: '自定义页面'
+  requirements:
+    _permission: 'access content'

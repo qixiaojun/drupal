@@ -1,0 +1,6 @@
+name: 自定义模块
+description: 模块描述
+type: module
+package: Custom
+version: 8.1.1
+core: 8.x

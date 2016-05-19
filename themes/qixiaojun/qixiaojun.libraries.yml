@@ -1,0 +1,24 @@
+global_styling:
+  version: VERSION
+  css:
+    # base|layout|component|state|theme
+    base:
+      css/base.css: {}
+    theme:
+      css/style.css: {}
+  js:
+    js/script.js: {}
+  # 使用核心的功能
+  dependencies:
+    - core/picturefill
+
+fontawesome:
+  remote: http://fontawesome.io
+  version: 4.6.3
+  license:
+    name: MIT
+    gpl-compatible: true
+  css:
+    theme:
+      css/font-awesome.min.css: {}
+      # http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css: { type: external, minified: true,}
